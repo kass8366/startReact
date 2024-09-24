@@ -1,6 +1,9 @@
+import { Main } from "./Components/Main/Main.js";
 
 function App() {
-  return 123;
+  return (
+    <Main></Main>
+  );
 }
 
 export default App;
