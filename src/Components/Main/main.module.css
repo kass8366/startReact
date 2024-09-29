@@ -4,6 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .container__button {
@@ -31,3 +33,35 @@
 .container__button:active {
     border: 3px solid #2F2A37;
 }
+
+.card_container {
+    width: 600px;
+    background-color: #eeeeee;
+    box-shadow: 0px 0px 21px 7px #00000057;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card_container__title {
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: 600;
+    color: #2F2A37;
+}
+
+.card_container__info {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2F2A37;
+    text-align: center;
+}
+
+.card_container__img {
+    width: 580px;
+    border-radius: 6px;
+}
+
